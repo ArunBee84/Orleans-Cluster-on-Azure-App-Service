@@ -1,6 +1,16 @@
-# Microsoft Orleans: Shopping Cart App
+---
+languages:
+- csharp
+products:
+- dotnet
+- dotnet-orleans
+page_type: sample
+name: "Orleans: Shopping Cart App sample"
+urlFragment: "orleans-shopping-cart-app-sample"
+description: "A canonical shopping cart sample application, built using Microsoft Orleans."
+---
 
-[![Deploy to Azure App Service](https://github.com/Azure-Samples/Orleans-Cluster-on-Azure-App-Service/actions/workflows/deploy.yml/badge.svg)](https://github.com/Azure-Samples/Orleans-Cluster-on-Azure-App-Service/actions/workflows/deploy.yml)
+# Orleans: Shopping Cart App sample
 
 A canonical shopping cart sample application, built using Microsoft Orleans. This app shows the following features:
 
@@ -14,8 +24,8 @@ A canonical shopping cart sample application, built using Microsoft Orleans. Thi
 
 ## Features
 
-- [.NET 6](https://docs.microsoft.com/dotnet/core/whats-new/dotnet-6)
-- [ASP.NET Core Blazor](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-6.0)
+- [.NET 7](https://docs.microsoft.com/dotnet/core/whats-new/dotnet-7)
+- [ASP.NET Core Blazor](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-7.0)
 - [Orleans: Grain persistence](https://docs.microsoft.com/dotnet/orleans/grains/grain-persistence)
   - [Azure Storage grain persistence](https://docs.microsoft.com/dotnet/orleans/grains/grain-persistence/azure-storage)
 - [Orleans: Cluster management](https://docs.microsoft.com/dotnet/orleans/implementation/cluster-management)
@@ -34,7 +44,7 @@ The app is architected as follows:
 ### Prerequisites
 
 - A [GitHub account](https://github.com/join)
-- The [.NET 6 SDK or later](https://dotnet.microsoft.com/download/dotnet)
+- The [.NET 7 SDK or later](https://dotnet.microsoft.com/download/dotnet)
 - The [Azure CLI](/cli/azure/install-azure-cli)
 - A .NET integrated development environment (IDE)
   - Feel free to use the [Visual Studio IDE](https://visualstudio.microsoft.com) or the [Visual Studio Code](https://code.visualstudio.com)
@@ -42,12 +52,12 @@ The app is architected as follows:
 ### Quickstart
 
 1. `git clone https://github.com/Azure-Samples/Orleans-Cluster-on-Azure-App-Service.git orleans-on-app-service`
-2. `cd orleans-on-app-service`
-3. `dotnet run --project Silo\Orleans.ShoppingCart.Silo.csproj`
+1. `cd orleans-on-app-service`
+1. `dotnet run --project Silo\Orleans.ShoppingCart.Silo.csproj`
 
 ### Acknowledgements
 
-The Orleans.ShoppingCart.Silo project uses the following open 3rd party-source projects:
+The Orleans.ShoppingCart.Silo project uses the following open3rd party-source projects:
 
 - [MudBlazor](https://github.com/MudBlazor/MudBlazor): Blazor Component Library based on Material design.
 - [Bogus](https://github.com/bchavez/Bogus): A simple fake data generator for C#, F#, and VB.NET.
